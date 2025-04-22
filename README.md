@@ -48,6 +48,10 @@ python app1.py
 
 The server will start on port 5000. You can access the web interface at `http://localhost:5000`.
 
+then open new terminal -> cd flask-drow  
+then npm run dev 
+
+
 ## Features
 
 - Real-time drowsiness detection using eye aspect ratio (EAR)
