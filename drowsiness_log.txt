@@ -1809,3 +1809,14 @@ Drowsiness detected at 2025-04-22 09:09:52 - EAR=0.26, Duration=1.01s
 Drowsiness detected at 2025-04-22 09:09:56 - EAR=0.27, Duration=0.99s
 Drowsiness detected at 2025-04-22 09:11:22 - EAR=0.28, Duration=0.99s
 Drowsiness detected at 2025-04-22 09:11:26 - EAR=0.29, Duration=1.00s
+Drowsiness detected at 2025-04-23 08:57:02 - EAR=0.35, Duration=1.50s
+Drowsiness detected at 2025-04-23 09:26:23 - EAR=0.28, Duration=0.49s
+Drowsiness detected at 2025-04-23 09:26:37 - EAR=0.26, Duration=0.49s
+Drowsiness detected at 2025-04-23 09:26:42 - EAR=0.27, Duration=1.00s
+Drowsiness detected at 2025-04-23 09:37:10 - EAR=0.30, Duration=1.02s
+Drowsiness detected at 2025-04-23 09:37:18 - EAR=0.26, Duration=1.00s
+Drowsiness detected at 2025-04-23 09:37:24 - EAR=0.28, Duration=1.51s
+Drowsiness detected at 2025-04-23 09:37:27 - EAR=0.27, Duration=2.00s
+Drowsiness detected at 2025-04-23 09:37:29 - EAR=0.29, Duration=0.50s
+Drowsiness detected at 2025-04-23 09:37:41 - EAR=0.26, Duration=1.50s
+Drowsiness detected at 2025-04-23 09:37:43 - EAR=0.30, Duration=0.50s

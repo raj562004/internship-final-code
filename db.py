@@ -4,8 +4,9 @@ from datetime import datetime, timedelta
 import uuid
 import os
 
-# Database setup
-DATABASE_FILE = "drowsiness_logs.db"
+# Database setup - use absolute path that works in ephemeral environments
+DATABASE_DIR = os.environ.get('DATABASE_DIR', os.path.dirname(os.path.abspath(__file__)))
+DATABASE_FILE = os.path.join(DATABASE_DIR, "drowsiness_logs.db")
 
 def init_db():
     """Initialize database tables if they don't exist"""
