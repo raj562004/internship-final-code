@@ -3,6 +3,7 @@ import datetime
 from datetime import datetime, timedelta
 import uuid
 import os
+import tensorflow as tf
 
 # Database setup - use absolute path that works in ephemeral environments
 DATABASE_DIR = os.environ.get('DATABASE_DIR', os.path.dirname(os.path.abspath(__file__)))
@@ -613,4 +614,15 @@ def reset_daily_logs():
         return True
     except Exception as e:
         print(f"❌ Error resetting logs: {e}")
-        return False 
+        return False
+
+# Instead of directly loading the model
+# model = tf.keras.models.load_model("drowsiness_model2.h5")
+
+# Use a try-except block or conditional check
+try:
+    model = tf.keras.models.load_model("drowsiness_model2.h5")
+except:
+    print("Model not found, using placeholder")
+    # Create a placeholder or dummy model
+    model = None  # Or some dummy model initialization 
