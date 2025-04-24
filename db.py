@@ -623,6 +623,6 @@ def reset_daily_logs():
 try:
     model = tf.keras.models.load_model("drowsiness_model2.h5")
 except:
-    print("Model not found, using placeholder")
-    # Create a placeholder or dummy model
-    model = None  # Or some dummy model initialization 
+    print("Model not found in app.py, using placeholder")
+    # Create a simple placeholder model
+    model = tf.keras.Sequential() 
