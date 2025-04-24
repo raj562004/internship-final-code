@@ -48,7 +48,8 @@ python app1.py
 
 The server will start on port 5000. You can access the web interface at `http://localhost:5000`.
 
-then open new terminal -> cd flask-drow  
+then open new terminal -> cd flask-drow   
+then npm install
 then npm run dev 
 
 
